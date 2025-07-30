@@ -1,9 +1,10 @@
 import { test, expect } from '@playwright/test';
-const { LoginPage } = require('../pages/loginPage');
+const { LoginPage } = require('../pages/LoginPage'); 
 
-test.describe('Funcionalidade de Login', () => {
+test.describe('Login Functionality', () => {
 
-  test('Login bem-sucedido deve redirecionar para a página de inventário', {tag: '@login'}, async ({ page })  => {
+  // Test title clearly describes the happy path.
+  test('Successful login should redirect to the inventory page', { tag: '@login' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
 
     await loginPage.goto();
@@ -11,14 +12,14 @@ test.describe('Funcionalidade de Login', () => {
 
     await expect(page).toHaveURL('https://www.saucedemo.com/inventory.html');
     await expect(page.locator('.title')).toHaveText('Products');
-
   });
 
-  test('Login nao realizado deve apresentar mensagem de erro', {tag: '@login'}, async ({ page })  => {
+  // Test title clearly describes the negative/sad path.
+  test('Failed login should display an error message', { tag: '@login-error' }, async ({ page }) => {
     const loginPage = new LoginPage(page);
 
     await loginPage.goto();
-    await loginPage.login('gustavoss', 'wrong_password');
+    await loginPage.login('invalid_user', 'wrong_password');
 
     await expect(loginPage.errorMessage).toBeVisible();
     await expect(loginPage.errorMessage).toHaveText('Epic sadface: Username and password do not match any user in this service');
