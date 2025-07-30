@@ -1,12 +1,12 @@
 <div align="center">
 
-**[Português 🇧🇷](#-versão-em-português) | [English 🇬🇧](#-english-version)**
+**[Português 🇧🇷](#-versão-em-português) | [English 🌐](#-english-version)**
 
 </div>
 
 ---
 
-## 🇧🇷 Versão em Português
+## 🇧🇷 Português
 
 ![Playwright](https://img.shields.io/badge/Teste%20com-Playwright-2EAD33?style=for-the-badge&logo=playwright)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -107,7 +107,7 @@ npx playwright show-report
 
 ---
 
-## 🇬🇧 English Version
+## 🌐 English
 
 ![Playwright](https://img.shields.io/badge/Test%20with-Playwright-2EAD33?style=for-the-badge&logo=playwright)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
