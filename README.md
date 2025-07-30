@@ -13,7 +13,7 @@
 
 ### 📖 Sobre o Projeto
 
-Este projeto é uma suíte de testes de automação End-to-End (E2E) desenvolvida для o site de demonstração [SauceDemo (Swag Labs)](https://www.saucedemo.com/). O objetivo é demonstrar a aplicação de melhores práticas em automação de testes de UI, incluindo o uso do padrão **Page Object Model (POM)**, testes dinâmicos e parametrizados, e uma estrutura de código limpa e de fácil manutenção.
+Este projeto é uma suíte de testes de automação End-to-End (E2E) desenvolvida para o site de demonstração [SauceDemo (Swag Labs)](https://www.saucedemo.com/). O objetivo é demonstrar a aplicação de melhores práticas em automação de testes de UI, incluindo o uso do padrão **Page Object Model (POM)**, testes dinâmicos e parametrizados, e uma estrutura de código limpa e de fácil manutenção.
 
 Este repositório serve como um portfólio prático de habilidades em automação de testes com Playwright e JavaScript.
 
