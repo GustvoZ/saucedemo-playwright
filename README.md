@@ -55,7 +55,7 @@ Siga os passos abaixo para executar o projeto localmente:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/GustvoZ/saucedemo-playwright.git](https://github.com/GustvoZ/saucedemo-playwright.git)
+    git clone <https://github.com/GustvoZ/saucedemo-playwright.git>
     ```
 
 2.  **Navegue até a pasta do projeto:**
@@ -156,7 +156,7 @@ Follow the steps below to run the project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/GustvoZ/saucedemo-playwright.git](https://github.com/GustvoZ/saucedemo-playwright.git)
+    git clone <https://github.com/GustvoZ/saucedemo-playwright.git>
     ```
 
 2.  **Navigate to the project directory:**
